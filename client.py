@@ -36,7 +36,7 @@ async def main():
     async with MCPServerSse(
         name="Pearl API",
         params={
-            "url": "https://pearl-api-mcp-server.pearlapi.workers.dev/sse",
+            "url": "https://mcp.pearl.com/mcp",
             "headers": {
                 "X-API-KEY": PEARL_API_KEY
             }
